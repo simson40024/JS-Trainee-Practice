@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task7</title>
+    <style type="text/css">
+      li {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Практика Advanced JS 7.</h1>
+    <p>
+      Вам буде дано рядок у нижньому регістрі та число, і ваше завдання
+      полягатиме в тому, щоб видалити стільки символів у рядку, скільки
+      зазначено в числі, використовуючи таке правило: спочатку видаліть усі
+      літери «a», потім літери «b», потім « c» і т. д. Починайте видалення з
+      лівого символу.
+    </p>
+    <ul>
+      Приклад коду:
+      <li>
+        solve('abracadabra', 1) => 'bracadabra' # видалили один символ 'a'
+      </li>
+      <li>solve('abracadabra', 2) => 'brcadabra' # видалили 2 символи 'a'</li>
+      <li>
+        s solve('abracadabra', 6) => 'rcdbr' # видалили 5 символів 'a', і тому
+        символів 'а' більше не залишилося, видалили 1 символ 'b'
+      </li>
+      <li>solve('abracadabra', 8) => 'rdr'</li>
+      <li>solve('abracadabra',50) => ''</li>
+    </ul>
+
+    <script src="script.js"></script>
+    <p>результат в консолі</p>
+  </body>
+</html>
